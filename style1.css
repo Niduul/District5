@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    font-family: "Advent Pro", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+
+}
+li
+{
+    list-style-type: none;
+}
+h2
+{
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+}
+a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav
+{
+    overflow: hidden;
+    background-color: darkslategrey;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+header li
+{
+    float: right;
+    font-size: 1.2em;
+}
+header li a
+{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+#Logo
+{
+    font-family: 'Helvetica', cursive;
+    font-weight: bold;
+    float: left;
+}
+#ImagePrincipale
+{
+    padding-top: 60px;
+    background: url(Media/terrain4.jpeg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 500px;
+    z-index: 1;
+}
+#nouveau 
+{
+    color: green;
+    text-align: center;
+    font-size: 2.5em;
+    box-sizing: border-box;
+    display: block;
+    border: none #333; 10px;
+    margin: 1em;
+    padding: 2em;
+}
+.short
+{
+    box-sizing: border-box;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 0;
+    justify-content: space-around;
+}
+.short
+{
+    font-family: Advent Pro;
+    font-size: 15px;
+}
+
+#ImagePrincipale1
+{
+    padding-top: 60px;
+    background: url(Media/terrain1.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+    height: 1500px;
+    z-index: 1;
+}
+#ImagePrincipale2
+{
+    padding-top: 60px;
+    background: url(Media/terrain2.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+    height: 950px;
+    z-index: 1;
+}
+#ImagePrincipale3
+{
+    padding-top: 60px;
+    background: url(Media/terrain3.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+    height: 1000px;
+    z-index: 1;
+}
+#ImagePrincipale3 p
+{
+    text-shadow: 2px 3px 1px black;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+}
+#ImagePrincipale4
+{
+    padding-top: 60px;
+    background: url(Media/terrain.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+    height: 1200px;
+    z-index: 1;
+}
+#ImagePrincipale4 p
+{
+    text-shadow: 2px 3px 1px black;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#ImagePrincipale5
+{
+    padding-top: 60px;
+    background: url(Media/terrain5.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+    height: 1000px;
+    z-index: 1;
+}
+.question p 
+{
+  text-align: center;
+  margin: 2px;
+  padding: 0;
+  font-family: Verdana;
+  font-size: 35px;
+  color: black;
+  font-weight: bold;
+}
+.réponse p 
+{
+  text-align: center;
+  margin: 5px;
+  padding: 0;
+  font-family: Verdana;
+  font-size: 30px;
+  color: whitesmoke;
+  text-shadow: 1px 2px 0.5px black;
+}
+#ImagePrincipale6-1
+{
+    padding-top: 60px;
+    background: url(Media/terrain1.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+    height: 300px;
+    z-index: 1;
+}
+#ImagePrincipale6-2
+{
+    padding-top: 60px;
+    background: url(Media/terrain6.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+    height: 800px;
+    z-index: 1;
+}
+#ImagePrincipale6-2 a
+{
+    text-shadow: 2px 3px 1px black;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.Map
+{
+    margin: auto;
+    position: relative;
+    padding: auto;
+    left: 30px;
+}
+h3
+{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 5em;
+    text-shadow: 2px 3px 1px black;
+}
+form
+{
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+}
+input, textarea, button
+{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Helvetica',sans-serif;.
+    border-radius: 8px;
+}
+textarea
+{
+    height: 120px;
+}
+button
+{
+    font-size: 1.5em;
+    background-color: whitesmoke;
+}
+button:hover
+{
+    background-color: limegreen;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+label
+{
+    font-size: 1.1em;
+}
+footer
+{
+    background-color: darkslategrey;
+    color: whitesmoke;
+    padding: 20px 0 10px 0;
+}
+.footer-basic 
+{
+  padding:40px 0;
+  background-color: darkslategrey;
+  color:#4b4c4d;
+}
+
+.footer-basic .social 
+{
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a 
+{
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:whitesmoke;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover 
+{
+  opacity:0.9;
+}
+.footer-basic ul 
+{
+  padding:8px 8px;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+.footer-basic .copyright 
+{
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:whitesmoke;
+  margin-bottom:0;
+}
+
+}
+.accordion 
+{
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: whitesmoke;
+  border-radius: 10px;
+}
+
+img
+{
+    width: 300px;
+}
+figure
+{
+    border: 1px solid #333;
+    padding: 1%;
+    width: 300px;
+    
+}
+figcaption
+{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
+
+
+#nouveau p span{
+    font-size: 70px;
+}
+#maillot
+{
+    margin-left: 40%;
+    margin-right: 40%;
+}
